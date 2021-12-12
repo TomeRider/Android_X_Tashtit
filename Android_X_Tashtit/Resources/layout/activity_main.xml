@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+	>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to... "
+        android:textSize="25sp"
+        android:textColor="#7f7f7f"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+	/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AndroidX Tashtit"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textColor="#ff00ff"
+	/>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lupa"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+		/>
+
+    <LinearLayout
+        android:id="@+id/maLlLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/maLyEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginTop="40dp">
+
+            <EditText
+                android:id="@+id/maEtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:drawablePadding="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:backgroundTint="@color/colorPrimaryDark" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <!--
+        https://www.youtube.com/watch?v=dW0YIV0Z9qk
+        Material Icons
+        -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/maLyPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/colorAccent"
+            android:hint=" Password"
+            app:passwordToggleEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/maEtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textSize="15dp"
+                android:nextFocusForward="@+id/maBtnLogin"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/maBtnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:id="@+id/maCbRemeberMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Remember me"/>
+
+            <TextView
+                android:id="@+id/maTvRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                android:textColor="#2f8dff"
+                android:text="Register"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/maTvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:selectAllOnFocus="false"
+            android:linksClickable="false"
+            android:autoLink="all"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:textColor="#2f8dff"
+            android:text="Forgot_password"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

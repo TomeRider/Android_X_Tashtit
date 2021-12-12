@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!-- used to need this custom namespace with 'app compatibility' libraries -->
+  <!--xmlns:myapp="http://schemas.android.com/apk/res-auto">-->
+
+  <!-- from the docs: to request that an item appear directly in the action bar as an action button, include showAsAction="ifRoom" -->
+  <!-- menu resources: http://developer.android.com/guide/topics/resources/menu-resource.html -->
+
+  <!--
+  <item android:id="@+id/mnuShopingCart"
+        android:title="Shopping cart"
+        android:icon="@drawable/shopping_cart_yellow"
+        app:showAsAction="ifRoom"
+        />
+  -->
+
+  <item android:id="@+id/mnuCities"
+        android:title="Cities"
+        />
+
+  <item android:id="@+id/mnuLogout"
+      android:title="Logout" />
+
+  <item 
+        android:title="Ambient music">
+
+    <menu
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" >
+
+      <item android:id="@+id/mnuMusicPlay"
+            android:title="Play"
+                />
+
+      <item android:id="@+id/mnuMusicStop"
+            android:title="Stop"
+                />
+
+    </menu>
+
+  </item>
+
+  <item android:id="@+id/mnuExit"
+      android:title="Exit" />
+  
+</menu>

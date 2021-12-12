@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49104748282",
+    "project_id": "android-x-tashtit",
+    "storage_bucket": "android-x-tashtit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49104748282:android:af51d4305ca36a75d55343",
+        "android_client_info": {
+          "package_name": "com.companyname.android_x_tashtit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49104748282-83tuglculdfiumvviql5j37k2rqo46iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT5kBpfsxnl9TyjfIeiiAAgtwOnR7sJS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49104748282-83tuglculdfiumvviql5j37k2rqo46iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
