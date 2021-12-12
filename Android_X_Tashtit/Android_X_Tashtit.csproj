@@ -61,6 +61,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ACTIVITIES\Activity1.cs" />
     <Compile Include="ACTIVITIES\BaseActivity.cs" />
     <Compile Include="ACTIVITIES\CitiesActivity.cs" />
     <Compile Include="ACTIVITIES\MainActivity.cs" />
@@ -179,6 +180,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\layout1.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
