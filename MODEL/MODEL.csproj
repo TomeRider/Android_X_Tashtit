@@ -52,8 +52,15 @@
     <Compile Include="BaseList_FS.cs" />
     <Compile Include="Cities.cs" />
     <Compile Include="City.cs" />
+    <Compile Include="Match.cs" />
+    <Compile Include="Matches.cs" />
+    <Compile Include="Merch_Sells.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Players.cs" />
+    <Compile Include="Player_Stats.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stuff.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
